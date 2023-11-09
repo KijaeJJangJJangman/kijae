@@ -1,3 +1,0 @@
-/home/kijae/csp2023/kijae/2023056353-8-1/2/build/CMakeFiles/rectangle.dir
-/home/kijae/csp2023/kijae/2023056353-8-1/2/build/CMakeFiles/edit_cache.dir
-/home/kijae/csp2023/kijae/2023056353-8-1/2/build/CMakeFiles/rebuild_cache.dir
