@@ -1,3 +1,0 @@
-/home/kijae/csp2023/kijae/2023056353-7-1/1/build/CMakeFiles/sorted_array.dir
-/home/kijae/csp2023/kijae/2023056353-7-1/1/build/CMakeFiles/edit_cache.dir
-/home/kijae/csp2023/kijae/2023056353-7-1/1/build/CMakeFiles/rebuild_cache.dir
