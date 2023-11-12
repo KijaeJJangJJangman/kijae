@@ -1,7 +1,6 @@
 #include <iostream>
 #include "rect.h"
 
-
 int main(){
     string shape;
     int width, height;
