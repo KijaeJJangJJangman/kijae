@@ -1,0 +1,1 @@
+add_executable(string main.cc my_string.cc)
