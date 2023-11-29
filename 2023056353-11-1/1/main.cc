@@ -2,6 +2,7 @@
 #include "my_string.h"
 using namespace std;
 
+
 int main(){
     string s;
     string c;
