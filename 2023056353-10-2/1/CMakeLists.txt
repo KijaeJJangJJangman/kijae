@@ -1,0 +1,1 @@
+add_executable(clock_time clocks.cpp clock_time.cpp main.cpp)
