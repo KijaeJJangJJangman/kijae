@@ -1,22 +1,34 @@
 #include <iostream>
 #include <stack>
-#include <algorithm>
 #include <vector>
 using namespace std;
 
 int main(){
     ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+    stack<int> s;
+    vector<char> c;
+    int cnt = 1;
     int n;
     cin >> n;
-    vector<int> v;
-    for(int i = 0 ; i < n ;i++){
-        int a;
-        cin >> a;
-        v.push_back(a);
-        if(v[i] > v[i-1] && v[i] < v[i-2]){
+    for(int i = 0 ; i < n; i++){
+        int x;
+        cin >> x;
+        while(cnt <= x){
+            s.push(cnt);
+            cnt++;
+            c.push_back('+');
+        }
+        if(s.top()==x){
+            s.pop();
+            c.push_back('-');
+        }else{
             cout << "NO";
             return 0;
         }
     }
-    
+    for(int i = 0 ; i < c.size() ; i++){
+        cout << c[i] << "\n";
+    }
 }
+
+//스택 수열 문제
