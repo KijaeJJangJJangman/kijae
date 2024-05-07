@@ -26,6 +26,6 @@ int main() {
             cout << arr[i] << "\n";
         }
     }
-    delete[] arr; // 메모리 누수를 방지하기 위해 배열을 해제합니다.
+    delete[] arr;
     return 0;
 }
