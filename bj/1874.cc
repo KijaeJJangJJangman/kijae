@@ -19,7 +19,7 @@ int main(){
             c.push_back('+');
         }
         if(s.top()==x){
-            s.pop();
+            s.pop();    
             c.push_back('-');
         }else{
             cout << "NO";
