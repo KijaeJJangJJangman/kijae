@@ -22,7 +22,11 @@ int main(void){
     sort(v.begin(), v.end());
     
     double avg = sum / n;
-    cout << round(avg) << "\n";
+    if(round(avg) == -0){
+        cout << 0 << "\n";
+    }else{
+        cout << round(avg) << "\n";
+    }
     
     cout << v[n / 2] << "\n";
 
@@ -35,7 +39,7 @@ int main(void){
             mode_candidates.push_back(i - 4000);
         } else if(cnt[i] == max_cnt) {
             mode_candidates.push_back(i - 4000);
-        }
+        }   
     }
     if(mode_candidates.size() == 1) {
         cout << mode_candidates[0] << "\n";
