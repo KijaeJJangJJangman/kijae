@@ -13,7 +13,6 @@ int main() {
         if (s == ".") {
             break;
         }
-
         stack<char> s1;
         bool balanced = true;
 
